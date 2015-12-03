@@ -1,7 +1,4 @@
 # OCR_barcode
 
-OCR machine readable zone on passport to extract passenger name.
-Decode barcode on boarding pass to extract passenger name.
-Compare both names.
-
-Test change.
+Tips for building main.cpp:
+Add "/FORCE:MULTIPLE" to linker command to avoid getting error LNK2005:'already defined in main.obj'
