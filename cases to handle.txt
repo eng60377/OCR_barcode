@@ -1,0 +1,11 @@
+Malaysian passports do not have '<<" to separate surname.
+In Malaysian passport, father's name is NOT put in front.
+However in boarding pass of Malaysian, father's name IS put in front.
+
+Cases to handle:
+
+1. Boarding pass barcode only up to 22 char for name. If name too long will look like the following:
+	E.g M1Ab Hamid/Ahmad AzharEEEUG4N
+	E.g.M1Ahmad Badruddin/NorhEEEUG4N
+2. Bin, Binti, Binte do not appear in boarding passes, but passports will have these terms. Solved
+3. Boarding pass names are sometimes encoded in all caps e.g. ASFIYA, sometimes mixed e.g Ahmad Azhar Ab Hamid. Solved
